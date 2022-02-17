@@ -6,4 +6,4 @@ This will contain some of my discord bots I have worked on that are open-source.
 
 
 Thanks,
-Arjun Sharda
+Chai_rbf
