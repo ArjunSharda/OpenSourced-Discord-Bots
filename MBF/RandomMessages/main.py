@@ -1,6 +1,7 @@
 # MODIFIED VERSION OF ORIGINAL CODE OF 2/16/2022
 # IT IS SUGGESTED YOU USE REPL.IT FOR THIS
 # SOME THINGS MAY BE INCORRECT, MAKING BOTS FUN WILL NOT BE LIABLE FOR THIS NOR WILL THE FOUNDER CHAI_RBF BE
+# CREDIT TO HTTPS://DISCORDPY.READTHEDOCS.IO FOR THE DOCS HELP OF DISCORD.PY
 
 import discord
 import random
@@ -83,9 +84,7 @@ async def credits(ctx):
     embed.add_field(name='<@436312795076886528>', value='Bot Idea got by him')
     embed.add_field(name='discord.py', value='Bot Language')
     embed.add_field(name='<https://www.youtube.com/watch?v=gamozdALD9I>', value='uptimerobot.com tutorial')
-    
-embed.add_field(name='https://discordpy.readthedocs.io/en/stable/quickstart.html and https://discordpy.readthedocs.io/en/stable/ext/commands/commands.html', value='Bot Development')
-    embed.add_field(name='uptimerobot.com',  value='Activity')
+
     embed.add_field(name='rep.it', value='Hosting & Bot Development Help with definitions of some code')
     embed.add_field(name='Status', value='Credit to https://discord.com/channels/81384788765712384/381889733053251584/914196594440667166, credit: <@656919778572632094>')
     embed.add_field(name='https://www.youtube.com/watch?v=yeuuB7qiTbQ', value='Embed help')
@@ -101,7 +100,6 @@ embed.add_field(name='https://discordpy.readthedocs.io/en/stable/quickstart.html
     embed.add_field(name='https://discord.com/channels/336642139381301249/381965515721146390/932086337044111402', value='Helping make hackbot command in premium of RandomMessages - editing')
     embed.add_field(name='https://stackoverflow.com/questions/66510970/add-role-by-id-discord-py', value='Helping with bot event for when users use command, give role if in guild kinda like')
     embed.add_field(name='https://stackoverflow.com/questions/49352368/discord-py-delete-author-message-after-executing-command#:~:text=2%20Answers&text=You%20can%20obtain%20the%20message,delete_message%20coroutine%20to%20delete%20messages.', value='Helped with message deletion for the rm!say command')
-     
 @bot.command()
 async def procommands(ctx):
      embed = discord.Embed(title='Pro Commands', description='Random Pro Commands', color = discord.Color.green())
