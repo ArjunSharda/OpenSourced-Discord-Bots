@@ -2,6 +2,7 @@
 # ACCURATE AS OF 2/16/2022
 # MODIFIED
 
+# THIS CODE WAS NOT MADE BY CHAI_RBF AND WAS FROM A TUTORIAL
 
 # Name Credit: https://www.youtube.com/watch?v=gamozdALD9I
 from flask import Flask 
