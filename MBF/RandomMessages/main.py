@@ -1,7 +1,6 @@
 # MODIFIED VERSION OF ORIGINAL CODE OF 2/16/2022
 # IT IS SUGGESTED YOU USE REPL.IT FOR THIS
 # SOME THINGS MAY BE INCORRECT, MAKING BOTS FUN WILL NOT BE LIABLE FOR THIS NOR WILL THE FOUNDER CHAI_RBF BE
-# CREDIT TO HTTPS://DISCORDPY.READTHEDOCS.IO FOR THE DOCS HELP OF DISCORD.PY
 
 import discord
 import random
@@ -100,6 +99,8 @@ async def credits(ctx):
     embed.add_field(name='https://discord.com/channels/336642139381301249/381965515721146390/932086337044111402', value='Helping make hackbot command in premium of RandomMessages - editing')
     embed.add_field(name='https://stackoverflow.com/questions/66510970/add-role-by-id-discord-py', value='Helping with bot event for when users use command, give role if in guild kinda like')
     embed.add_field(name='https://stackoverflow.com/questions/49352368/discord-py-delete-author-message-after-executing-command#:~:text=2%20Answers&text=You%20can%20obtain%20the%20message,delete_message%20coroutine%20to%20delete%20messages.', value='Helped with message deletion for the rm!say command')
+     
+     
 @bot.command()
 async def procommands(ctx):
      embed = discord.Embed(title='Pro Commands', description='Random Pro Commands', color = discord.Color.green())
@@ -148,12 +149,10 @@ async def botfounder(ctx):
 
 
 @bot.command()
+@commands.has_role(920449565633687612)
 async def statuschange(ctx):
-      if ctx.author.id == 851206490638254152:
        await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='random commands'))
-       await ctx.send('Status Change: Accepted')
-      else:
-           await ctx.send('Access denied, RandomMessages dev-only command.')
+       await ctx.send('Status Change accepted, I assume.')
 
            
 @bot.command()
@@ -270,5 +269,6 @@ async def say(ctx, *, arg):
 @commands.has_role(920449615118090270)
 async def dm(ctx, user : discord.User, *, arg):
   await user.send(f"A message has been sent to you by {ctx.author.mention} saying: {arg}")
+
 
 bot.run('YOUR_TOKEN_HERE')
