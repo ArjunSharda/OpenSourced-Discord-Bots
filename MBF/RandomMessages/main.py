@@ -232,7 +232,8 @@ async def funcommands(ctx):
       embed.add_field(name='rm!rate5stars', value='Rates out of 5 stars! Command has a notice, please read.')
       embed.add_field(name='rm!trueorfalse', value='Says if something is true or false! Command has a notice, please read.')
       await ctx.send(embed=embed)
-# pip install discord-py-slash-command
+       
+       
 @bot.command()      
 async def supportserver(ctx):
   buttons= [
