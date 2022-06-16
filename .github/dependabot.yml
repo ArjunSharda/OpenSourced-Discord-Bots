@@ -21,3 +21,14 @@ updates:
       - "ajsharda17"
     labels:
       - "enhancement"
+   - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "ajsharda17"
+    labels:
+      - "enhancement"
+      
+     
+      
